@@ -13,3 +13,40 @@ Following the [README](https://github.com/DANS-KNAW/dans-core-systems/blob/maste
 | <s>RPM</s>        | 4.17.0                  | No          |
 | <s>Jena</s>       | 5.1.0                   | Yes         |
 
+
+
+
+In python venv:
+
+* `pin install ansible-core==2.16.14 PyYAML requests`
+
+
+On 4.Test that you can start the default base boxes: 
+
+* `python ./scripts/start-preprovisioned-box.py`
+
+```yaml
+preprovisioned:
+  default_servers:
+    - dev_vocabs
+  ` - dev_archaeology
+```
+
+
+
+
+## Vagrant
+
+Vagrant boxes status: `vagrant global-status --prune`
+
+
+**box domains:**
+* 192.168.56.38   dev.archaeology.datastations.nl vagrant-name: dev_archaeology
+* 192.168.56.42   dev.vocabs.datastations.nl vagrant-name: dev_vocabs
+
+
+SSH to vagrant box: `vagrant ssh dev_vocab`
+
+
+# Questions
+* How are the boxes used for development?
