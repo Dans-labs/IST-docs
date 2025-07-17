@@ -1,6 +1,11 @@
+hackpad URL: https://hackmd.io/@pwDvwP9iT26n_AGA3SL1fQ/H1hQPCEIgg/edit
+
+
 # Dataverse (Core Systems) Installation
 
-Following the [README](https://github.com/DANS-KNAW/dans-core-systems/blob/master/README.md) of https://github.com/DANS-KNAW/dans-core-systems/
+
+**Following the [README](https://github.com/DANS-KNAW/dans-core-systems/blob/master/README.md) of https://github.com/DANS-KNAW/dans-core-systems/**
+
 
 | Tool       | Version                 | ICT-Support |
 |------------|-------------------------|-------------|
